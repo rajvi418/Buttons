@@ -266,8 +266,8 @@
 .btn5:hover .pay-bill {
     color: black;
 }
-.btn6
-{
+
+.btn6 {
     border: none;
     border-radius: 30px;
     background-color: #66ff66;
@@ -277,18 +277,18 @@
     overflow: hidden;
     position: relative;
 }
-.btn6 span
-{
+
+.btn6 span {
     z-index: 50;
     color: white;
     transition: all 0.5s;
 }
-.btn6:hover span 
-{
+
+.btn6:hover span {
     color: black;
 }
-.btn6::before
-{
+
+.btn6::before {
     content: "";
     background-color: black;
     height: 110%;
@@ -300,38 +300,7 @@
     position: absolute;
     transition: all 0.5s;
 }
-.btn6:hover::before{
-    transform: skew(0deg) translate(100%,0%);
-}
 
-.btn7
-{
-    border: none;
-    background-color: transparent;
-    letter-spacing: 2px;
-    width: fit-content;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    /* overflow: hidden; */
-    position: relative;
-}
-.hover-underline 
-{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: -10px;
-width: 0;
-height: 0;
-border: 2px solid red;
-transition: all 0.2s ease;
-}
-.btn7:hover::after
-{
-    border: 1px solid black;
-    transform: translateX(10px);
-    width: 100%;
-    
+.btn6:hover::before {
+    transform: skew(0deg) translate(100%, 0%);
 }
